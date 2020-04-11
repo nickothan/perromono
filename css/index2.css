@@ -1,0 +1,57 @@
+.video {
+  margin: 10px 0;
+  box-sizing: border-box;
+}
+
+.video-prueba {
+  width: 100%;
+  height: 400px;
+  background-color: aliceblue;
+}
+
+.container-logo {
+  display: inline-block;
+}
+
+main {
+  width: 1024px;
+  margin: 0 auto;
+}
+
+.comidas {
+  display: flex;
+  justify-content: space-between;
+}
+
+.comidas img {
+  margin: 0;
+}
+
+.botones {
+  display: flex;
+  justify-content: space-around;
+}
+
+.botones > a {
+  margin: 0;
+}
+
+.eventos {
+  display: flex;
+  justify-content: space-around;
+}
+
+.localizacion {
+  margin: 20px 0;
+}
+
+footer {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+  background-color: red;
+}
+
+footer > div {
+  margin: 0;
+}

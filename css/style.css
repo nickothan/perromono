@@ -42,7 +42,7 @@ a:hover {
   transform: scale(1.1);
 }
 
-article.video {
+.video {
   width: 100%;
 }
 
@@ -69,6 +69,11 @@ footer {
   color: white;
 }
 footer > article {
+  display: table-cell;
+  margin-left: 100px;
+}
+
+footer > div {
   display: table-cell;
   margin-left: 100px;
 }
