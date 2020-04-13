@@ -7,8 +7,8 @@
     <meta name="description" content="comidas rapidas perro mono"></meta>
     <meta name="keywords" content="salchipapa, amburguesa, perro caliente,"></meta>
     <title>Perro Mono Quirigua</title>
-    <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" href="./css/index2.css">
+    <link rel="stylesheet" href="../vistas/css/style.css">
+    <link rel="stylesheet" href="../vistas/css/index2.css">
 </head>
 <body>
     <header>
