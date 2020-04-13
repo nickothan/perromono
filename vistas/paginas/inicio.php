@@ -10,9 +10,9 @@
             <img src="imagenes/salchipapa mona.jpg" alt="salchipapa mona" width="300px">
         </div>
 
-        <div class="botones">
-            <a href="">Antojate de mas</a>
-            <a href="">Organiza tus eventos con nosotros</a>
+        <div class="container-button">
+            <a class="button" href="">Antojate de mas</a>
+            <a class="button" href="">Organiza tus eventos con nosotros</a>
         </div>
     
         <div class="eventos">
