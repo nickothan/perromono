@@ -16,7 +16,7 @@
         </div>
     
         <div class="eventos">
-            <img src="imagenes/foto cumpleaños familia.jpeg" alt="" width="49%" height="400px">
+            <img src="magenes/foto cumpleaños familia.jpeg" alt="" width="49%" height="400px">
             <img src="imagenes/sele atletismo bogota.jpeg" alt="" width="49%" height="400px">
         </div>
     

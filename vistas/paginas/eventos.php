@@ -9,7 +9,7 @@
 
         <div class="reencuentro">
             <h3>reencuentro</h3>
-            <img src="imagenes/sele atletismo bogota.jpeg" alt="" width="50%" height="auto">
+            <img src="../imagenes/sele atletismo bogota.jpeg" alt="" width="50%" height="auto">
         </div>
 
         div.
