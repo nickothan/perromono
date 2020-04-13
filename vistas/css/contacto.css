@@ -1,0 +1,37 @@
+main{
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+}
+h2{
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    margin: 0 auto;
+    padding: 20px;
+    width: 80%;
+}
+.formulario{
+    width: 45%;
+    /*display: flex; */
+    /*flex-direction: column;*/
+}
+  input{
+      border: black 1 ;
+      margin :5px;
+  }
+  textarea{
+      margin: 5px;
+  }
+  
+  .informacion{
+    width: 45%;
+    color:white;
+    font-size: 25px;
+  }
+
+  .localizacion{
+      width: 80%;
+      margin: 0 auto;
+      height: auto;
+  }
