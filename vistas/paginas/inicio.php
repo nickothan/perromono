@@ -5,9 +5,9 @@
         </div>
 
         <div class="comidas">
-            <img src="imagenes/Parrillada mona.jpeg" alt="parrillada mona" width="400px" >
-            <img src="imagenes/No joda.jpeg" alt="no joda" width="300px">
-            <img src="imagenes/salchipapa mona.jpeg" alt="salchipapa mona" width="300px">
+            <img src="imagenes/Parrillada mona.jpg" alt="parrillada mona" width="400px" >
+            <img src="imagenes/No joda.jpg" alt="no joda" width="300px">
+            <img src="imagenes/salchipapa mona.jpg" alt="salchipapa mona" width="300px">
         </div>
 
         <div class="botones">
@@ -16,8 +16,8 @@
         </div>
     
         <div class="eventos">
-            <img src="magenes/foto cumpleaños familia.jpeg" alt="" width="49%" height="400px">
-            <img src="imagenes/sele atletismo bogota.jpeg" alt="" width="49%" height="400px">
+            <img src="imagenes/foto-cumpleanos-familia.jpg" alt="" width="49%" height="400px">
+            <img src="imagenes/sele atletismo bogota.jpg" alt="" width="49%" height="400px">
         </div>
     
         <div class="localizacion">
