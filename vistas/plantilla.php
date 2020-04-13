@@ -7,11 +7,13 @@
 
 <body>
 
+    <?php include "vistas/global/header.html"; ?>
+
+    <main>
+
     <?php 
 
-    include "vistas/global/header.html";
-
-    if(isset($_GET["pagina"])){
+    if (isset($_GET["pagina"])) {
 
         if($_GET["pagina"]== "galeria" ||
             $_GET["pagina"]=="eventos" ||
@@ -19,13 +21,14 @@
             $_GET["pagina"]=="contacto"){
                 include "paginas/".$_GET["pagina"].".php";
             }
-    }else{
+    } else {
         include "paginas/inicio.php";
     }
-        
-    
-    include "vistas/global/footer.html";
 
     ?>
+
+    </main>
+
+    <?php include "vistas/global/footer.html"; ?>
 </body>
 </html>
