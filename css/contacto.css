@@ -1,10 +1,6 @@
-main {
-    display: flex;
-    width: 80%;
-    margin: 0 auto;
-}
 
-h2{
+
+.contactos h2{
     color: white;
     text-align: center;
     font-size: 30px;
@@ -19,12 +15,23 @@ h2{
     /*flex-direction: column;*/
 }
 
+.formularioinfo{
+    display: flex;
+}
+
+.formulario{
+    display: flex;
+    flex-direction: column;
+}
+
 input{
     border: black 1 ;
+    width: 90%;
     margin :5px;
 }
 
 textarea{
+    width: 90%;
     margin: 5px;
 }
 
@@ -32,10 +39,14 @@ textarea{
     width: 45%;
     color:white;
     font-size: 25px;
+    text-align: left;
+}
+.informacion p{
+    text-align: justify;
 }
 
-.localizacion{
-    width: 80%;
-    margin: 0 auto;
-    height: auto;
+.container-input-submit{
+    margin: auto;
+    width: 50%;
+    background-color: red;
 }

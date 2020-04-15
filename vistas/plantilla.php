@@ -16,6 +16,7 @@
     if (isset($_GET["pagina"])) {
 
         if($_GET["pagina"]== "galeria" ||
+            $_GET["pagina"]== "inicio" ||
             $_GET["pagina"]=="eventos" ||
             $_GET["pagina"]=="carta" ||
             $_GET["pagina"]=="contacto"){
