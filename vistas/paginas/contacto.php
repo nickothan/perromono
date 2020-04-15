@@ -18,7 +18,7 @@
                         <textarea name="" id="" cols="20" rows="10" placeholder="Dejanos tu mensaje en este recuadro"></textarea>
                         </div>
                         <div class="container-input-submit">
-                        <input type="submit" value="Enviar" >
+                        <input class="submit" type="submit" value="Enviar" >
                         </div>
                     </form>
                 </div>

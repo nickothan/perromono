@@ -1,43 +1,43 @@
-.video {
+.inicio .video {
   margin: 10px 0;
   box-sizing: border-box;
 }
 
-.video-prueba {
+.inicio .video-prueba {
   width: 100%;
   height: 400px;
   background-color: aliceblue;
 }
 
-video {
+.inicio video {
   height: 400px;
   margin-left: 500px;
 }
 
-.container-logo {
+.inicio .container-logo {
   display: inline-block;
 }
 
-.comidas {
+.inicio .comidas {
   display: flex;
   justify-content: space-between;
 }
 
-.comidas img {
+.inicio .comidas img {
   margin: 0;
 }
 
-.container-button {
+.inicio .container-button {
   display: flex;
   justify-content: space-around;
   margin: 20px;
 }
 
-.eventos {
+.inicio .eventos {
   display: flex;
   justify-content: space-around;
 }
 
-.localizacion {
+.inicio .localizacion {
   margin: 20px 0;
 }
