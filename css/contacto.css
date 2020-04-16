@@ -48,4 +48,5 @@ textarea {
 
 .container-input-submit .submit {
   background-color: red;
+  border-radius: 10px;
 }

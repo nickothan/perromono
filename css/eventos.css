@@ -10,18 +10,42 @@
 
 .even-pri-p {
   text-align: center;
-  margin: 20px 0;
+  margin: 40px 0;
 }
-.even-pri-p {
+.even-pri-p p {
   font-size: 25px;
+  margin: 10px 0;
 }
 
 .eventos h3 {
   font-size: 30px;
   text-align: center;
 }
-
+.cumples{
+  display: flex;
+}
 .even-titulo-cumple p {
+  margin-top: 20px  ;
   font-size: 25px;
   text-align: left;
+}
+
+.reencuentro{
+  display: flex;
+  margin: 40px;
+}
+
+.reencuentro p{
+  margin-top: 20px  ;
+  font-size: 25px;
+  text-align: left;
+}
+
+.reservas-titulo{
+  margin-bottom: 20px;
+}
+
+.reservas-titulo p{
+  margin-top: 20px  ;
+  font-size: 25px;
 }

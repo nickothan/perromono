@@ -7,17 +7,31 @@
     
     <div class="cumples">
         <div class="even-img-cumple">
-            <img src="imagenes/foto-cumpleanos-familia.jpg" alt="" width="" height="auto">
+            <img src="imagenes/foto-cumpleanos-familia.jpg" alt="" width="90%" height="auto">
         </div>
         <div class="even-titulo-cumple">
             <h3>Cumpleaños</h3>
-            <p>celebramos tus </p>
+            <p>celebramos tus cumpleaños y los de tus seres queridos  </p>
         </div>
     </div>
 
     <div class="reencuentro">
-            <h3>reencuentro</h3>
-            <img src="imagenes/sele-atletismo-bogota.jpeg" alt="" width="50%" height="auto">
+        <div class="reencuentro-titulo">
+            <h3>Celebraciones</h3>
+            <p>Ven y comparte momentos de alegria con todos tus amigos, compañeros, familiares y seres queridos.  </p>
+        </div>
+        <div class="reencuentro-img">
+            <img src="imagenes/sele-atletismo-bogota.jpg" alt="" width="100%" height="auto">
+        </div>
     </div>
-        
+    
+    <div class="recervas">
+        <div class="reservas-titulo">
+            <h3>Recervas</h3>
+            <p>Para celebrar todas tus ocaciones especiales puedes hacer recervas de espacios para que tu y los tuyos tengan su espacio exclusivo</p>
+        </div>
+        <div class="reservas-img">
+            <img src="imagenes/espacio para empezar cumpleaños.jpg" alt="">
+        </div>
+    </div>
 </div>
