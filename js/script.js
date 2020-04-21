@@ -1,18 +1,30 @@
-function pageFunctions () {
-  var iconsMobile = document.getElementById('navToggle');
-  iconsMobile.addEventListener('click', function () {
-    var classIcons = this.className;
-    var navigation = document.getElementById('navigation');
-    var body = document.getElementsByTagName('body')[0];
-    if ( classIcons === 'toggle') {
-      this.className = 'toggle open';
-      navigation.className = 'open';
-      body.className = 'menu-open';
-    } else {
-      this.className = 'toggle';
-      navigation.className = '';
-      body.className = '';
-    }
-  })
-}
+$(document).ready( function() {
 
+  var iconsMobile = $('#navToggle');
+
+  iconsMobile.on('click', function () {
+    var classIcons = this.className;
+    var navigation = $('#navigation');
+    var body = $('body');
+    if ( classIcons === 'toggle') {
+      $(this).addClass('open');
+      navigation.addClass('open');
+      body.addClass('menu-open');
+    } else {
+      $(this).removeClass('open');
+      navigation.removeClass('open');
+      body.removeClass('menu-open');
+    }
+  });
+
+  galeri();
+  
+})
+
+function galeri () {
+  var imageGaleri = $('.galeriaimagen2');
+  var widthImage = imageGaleri.width();
+
+  var containerImages = $('.galeria div');
+  containerImages.height(widthImage);
+}

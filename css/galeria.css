@@ -4,48 +4,23 @@
 
 .galeria > div {
     display: inline-block;
+    overflow: hidden;
+    vertical-align: top;
 }
 
-.galeriaimagen1 {
-  width: 66%;
-}
-
-.galeriaimagen2 {
-  width: 30%;
-}
-
-.galeriaimagen3 {
-  width: 30%;
-}
-
-.galeriaimagen4 {
-  width: 30%;
-}
-
-.galeriaimagen5 {
-  width: 30%;
-}
-
-.galeriaimagen6 {
-  width: 30%;
-}
-
-.galeriaimagen7 {
-  width: 30%;
-}
-
-.galeriaimagen8 {
-  width: 66%;
-}
-
-.galeriaimagen9 {
-  width: 30%;
-}
-
+.galeriaimagen1,
+.galeriaimagen8,
 .galeriaimagen10 {
-  width: 66%;
+  width: 60%;
 }
 
+.galeriaimagen2,
+.galeriaimagen3,
+.galeriaimagen4,
+.galeriaimagen5,
+.galeriaimagen6,
+.galeriaimagen7,
+.galeriaimagen9,
 .galeriaimagen11 {
   width: 30%;
 }

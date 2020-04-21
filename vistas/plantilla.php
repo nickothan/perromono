@@ -5,7 +5,7 @@
         include "vistas/global/head.html";
     ?>
 
-<body onload="pageFunctions()">
+<body>
 
     <?php include "vistas/global/header.html"; ?>
 
