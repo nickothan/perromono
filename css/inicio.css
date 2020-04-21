@@ -18,17 +18,16 @@
   justify-content: space-between;
 }
 
-.inicio-comidas-img1{
-  width: 400px;
-  
+.inicio-comidas-img1,
+.inicio-comidas-img2,
+.inicio-comidas-img3 {
+  width: 32%;
+  display: inline-block;
 }
-.inicio-comidas-img2{
-  width: 250px;
-  height: 100%;
-}
-.inicio-comidas-img3{
-  width: 400px;
-  height: 100%;
+.inicio-comidas-img1 img,
+.inicio-comidas-img2 img,
+.inicio-comidas-img3 img {
+  height: 80%;
 }
 
 .inicio-container-button {
