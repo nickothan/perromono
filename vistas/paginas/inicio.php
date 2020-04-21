@@ -22,8 +22,12 @@
         </div>
     
         <div class="inicio-eventos">
-            <img src="imagenes/foto-cumpleanos-familia.jpg" alt="">
-            <img src="imagenes/sele-atletismo-bogota.jpg" alt="">
+            <div>
+                <img src="imagenes/foto-cumpleanos-familia.jpg" alt="">
+            </div>
+            <div>
+                <img src="imagenes/sele-atletismo-bogota.jpg" alt="">
+            </div>
         </div>
 
         <div>

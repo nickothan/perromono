@@ -39,12 +39,16 @@
 
 .inicio-eventos {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
 .inicio-localizacion {
   width: 100%;
   margin:20px 0;
+}
+
+.inicio-eventos > div {
+  width: 48%;
 }
 /* 
 @media screen and (max-width:840px){
