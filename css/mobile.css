@@ -115,10 +115,34 @@
   /** Inicio **/
 
   .inicio-comidas {
+    display: block;
+  }
+
+  .inicio-comidas-img1 {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  .inicio-comidas-img2 {
+    width: 34%;
+    display: inline-block;
+  }
+
+  .inicio-comidas-img3 {
+    width: 62%;
+    display: inline-block;
+    float: right;
+  }
+
+
+  .inicio-eventos {
     flex-direction: column;
   }
 
-  /** Inicio **/
+  .inicio-eventos img {
+    margin-bottom: 10px;
+  }
 
+  /** Inicio **/
 
 }

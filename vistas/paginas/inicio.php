@@ -22,8 +22,12 @@
         </div>
     
         <div class="inicio-eventos">
-            <img src="imagenes/foto-cumpleanos-familia.jpg" alt="" width="49%" height="400px">
-            <img src="imagenes/sele-atletismo-bogota.jpg" alt="" width="49%" height="400px">
+            <img src="imagenes/foto-cumpleanos-familia.jpg" alt="">
+            <img src="imagenes/sele-atletismo-bogota.jpg" alt="">
+        </div>
+
+        <div>
+            <a href="" class="button"> Como llegar desde aca</a>
         </div>
     
         <div class="inicio-localizacion">
