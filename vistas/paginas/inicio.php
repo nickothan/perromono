@@ -5,14 +5,20 @@
         </div>
 
         <div class="inicio-comidas">
-            <img src="imagenes/Parrillada mona.jpg" alt="parrillada mona" width="400px" >
-            <img src="imagenes/No joda.jpg" alt="no joda" width="300px">
-            <img src="imagenes/salchipapa mona.jpg" alt="salchipapa mona" width="300px">
+            <div class="inicio-comidas-img1">
+                <img src="imagenes/Parrillada mona.jpg" alt="parrillada mona" >
+            </div>
+            <div class="inicio-comidas-img2">
+                <img src="imagenes/No joda.jpg" alt="no joda" >
+            </div>
+            <div class="inicio-comidas-img3">
+                <img src="imagenes/salchipapa mona.jpg" alt="salchipapa mona" >
+            </div>  
         </div>
 
         <div class="inicio-container-button">
-            <a class="button" href="">Antojate de mas</a>
-            <a class="button" href="">Organiza tus eventos con nosotros</a>
+            <a class="button" href="index.php?pagina=galeria">Antojate de mas</a>
+            <a class="button" href="index.php?pagina=eventos">Organiza tus eventos con nosotros</a>
         </div>
     
         <div class="inicio-eventos">

@@ -36,7 +36,7 @@ nav {
 }
 
 nav a {
-  margin-right: 20px;
+  margin-right: 10px;
 }
 
 nav a:hover{
@@ -84,3 +84,66 @@ footer li {
 }
 
 /* Footer  */
+
+@media screen and (max-width:840px){
+  
+  main {
+    width: 90%;
+    margin: 0 auto;
+  }
+  
+  header{
+    height: 60px;
+  }
+  
+  .logo{
+    width: 150px;
+    padding: 32px;
+    margin-left: 50px;
+  }
+  
+  .button {
+    font-size: 20px;
+    padding: 5px 20px;
+  }
+  nav {
+    margin: 10px;
+  }
+  
+  nav a {
+    margin-right: 5px;
+  }
+}
+@media screen and (max-width:740px){
+  .button {
+    font-size: 20px;
+    padding: 5px 15px;
+  }
+
+  .logo{
+    width: 150px;
+    padding: 32px;
+    margin-left: 25px;
+  }
+}
+
+@media screen and (max-width:420px){
+  .button {
+    font-size: 12px;
+    padding: 2.5px 7.5px;
+  }
+
+  nav {
+    margin: 5px;
+  }
+
+  nav a {
+    margin-right: 0px;
+  }
+
+  .logo{
+    width: 150px;
+    padding: 20px;
+    margin-left: 15px;
+  }
+}

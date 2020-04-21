@@ -10,7 +10,7 @@
     <?php include "vistas/global/header.html"; ?>
 
     <main>
-
+    
     <?php 
 
     if (isset($_GET["pagina"])) {

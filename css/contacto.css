@@ -41,6 +41,10 @@ textarea {
   text-align: justify;
 }
 
+.informacion li{
+  margin:  10px 0;
+}
+
 .container-input-submit {
   margin: auto;
   width: 50%;
@@ -49,4 +53,11 @@ textarea {
 .container-input-submit .submit {
   background-color: red;
   border-radius: 10px;
+  padding: 10px 0;
+  font-size: 25px;
+  color: white;
+}
+
+.cotacto-localizacion{
+  width: 100%;
 }

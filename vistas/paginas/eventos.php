@@ -30,8 +30,8 @@
             <h3>Recervas</h3>
             <p>Para celebrar todas tus ocaciones especiales puedes hacer recervas de espacios para que tu y los tuyos tengan su espacio exclusivo</p>
         </div>
-        <div class="reservas-img">
-            <img src="imagenes/espacio para empezar cumpleaños.jpg" alt="">
+        <div class="reservas-mig">
+            <img src="imagenes/espacio para empezar cumpleaños.jpg" alt="" width="100%">
         </div>
     </div>
 </div>

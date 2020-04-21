@@ -1,0 +1,13 @@
+.galeria{
+    display: inline-block;
+}
+
+.galeriaimagen1 img{
+    width: 30%;
+    height: auto;
+}
+
+.galeriaimagen2 img{
+    width: 30%;
+    height: auto;
+}

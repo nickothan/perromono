@@ -18,8 +18,17 @@
   justify-content: space-between;
 }
 
-.inicio-comidas img {
-  margin: 0;
+.inicio-comidas-img1 img{
+  width: 400px;
+  
+}
+.inicio-comidas-img2 img{
+  width: 250px;
+  height: 100%;
+}
+.inicio-comidas-img3 img{
+  width: 400px;
+  height: 100%;
 }
 
 .inicio-container-button {
@@ -36,4 +45,36 @@
 .inicio-localizacion {
   width: 100%;
   margin:20px 0;
+}
+
+@media screen and (max-width:840px){
+  .inicio-video-prueba{
+    height: 300px;
+  }
+  .inicio-comidas-img1 img {
+    width: 275px;
+    height: 100%;
+  }
+  .inicio-comidas-img2 img {
+    width: 200px;
+    height: 100%;
+  }
+  .inicio-comidas-img3 img {
+    width: 275px;
+    height: 100%;
+  }
+}
+@media screen and (max-width:740px){
+  .inicio-comidas-img1 img {
+    width: 250px;
+    height: 100%;
+  }
+  .inicio-comidas-img2 img {
+    width: 150px;
+    height: 100%;
+  }
+  .inicio-comidas-img3 img {
+    width: 250px;
+    height: 100%;
+  }
 }
