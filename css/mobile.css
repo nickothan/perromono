@@ -139,8 +139,10 @@
     flex-direction: column;
   }
 
-  .inicio-eventos img {
+  .inicio-eventos > div {
+    width: 100%;
     margin-bottom: 10px;
+
   }
 
   /** Inicio **/
