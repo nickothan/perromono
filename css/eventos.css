@@ -68,7 +68,7 @@
     flex-direction: column-reverse;
     margin-bottom: 20px;
   }
-  
+
   .cumples img {
     width: 100%;
   }
@@ -81,5 +81,9 @@
   .even-titulo-cumple p,
   .reencuentro p {
     margin: 10px 0 20px 0;
+  }
+
+  .reencuentro-titulo {
+    width: 100%;
   }
 }
