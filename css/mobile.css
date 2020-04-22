@@ -12,10 +12,6 @@
 
 @media (max-width: 769px) {
   /** Menu **/
-  .menu {
-    display: none;
-  }
-
   .toggle {
     cursor: pointer;
     display: inline-block;
