@@ -35,3 +35,28 @@
 font-size: 20px;
     
 }
+
+@media (max-width: 769px){
+    .contenido-menu{
+        margin-left: 50px;
+        width: 50%;
+    }
+    .carta h3{
+        width: 40%;
+    }
+}
+@media (max-width: 380px){
+
+    .menu{
+        margin: 15px 0;
+    }
+
+    .carta h3{
+        width: 80%;
+    }
+
+    .contenido-menu{
+        margin-left: 10px;
+        width: 70%;
+    }
+}
