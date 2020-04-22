@@ -68,6 +68,11 @@
     flex-direction: column-reverse;
     margin-bottom: 20px;
   }
+  
+  .cumples img {
+    width: 100%;
+  }
+
   .reencuentro {
     flex-direction: column;
     margin: 0 0 20px;
