@@ -7,7 +7,7 @@
     
     <div class="cumples">
         <div class="even-img-cumple">
-            <img src="imagenes/foto-cumpleanos-familia.jpg" alt="" width="90%" height="auto">
+            <img src="imagenes/foto-cumpleanos-familia.jpg" alt=""  >
         </div>
         <div class="even-titulo-cumple">
             <h3>Cumpleaños</h3>
