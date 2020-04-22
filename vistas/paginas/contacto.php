@@ -1,9 +1,51 @@
+<?php
+ 
+if($_POST) {
+    $nombre = "";
+    $numero = "";
+    $email = "";
+    $concerned_department = "";
+    $message = "";
+     
+    if(isset($_POST['nombre'])) {
+      $nombre = filter_var($_POST['nombre'], FILTER_SANITIZE_STRING);
+    }
+     
+    if(isset($_POST['email'])) {
+        $email = str_replace(array("\r", "\n", "%0a", "%0d"), '', $_POST['email']);
+        $email = filter_var($email, FILTER_VALIDATE_EMAIL);
+    }
+     
+    $email_title = 'Contacto de cliente';
+
+    if(isset($_POST['numero'])) {
+        $numero = filter_var($_POST['numero'], FILTER_SANITIZE_INT);
+    }
+
+    if(isset($_POST['message'])) {
+        $message = htmlspecialchars($_POST['message']);
+    }
+
+    $recipient = "mail@mail.com";
+     
+    $headers  = 'MIME-Version: 1.0' . "\r\n"
+    .'Content-type: text/html; charset=utf-8' . "\r\n"
+    .'From: ' . $email . "\r\n";
+    
+    mail($recipient, $email_title, $message, $headers);
+         
+} else {
+    $texto = '<p>Algo ha salido mal, Disculpe las molestias.</p>';
+}
+ 
+?>
+
 <div class="contactos">
 
         <h2>Contactos</h2>
         <div class="formularioinfo">
             <div class="formulario">
-            <b><form action="post">
+            <b><form action="?pagina=contacto" method="post">
                         <div class="container-input">
                             <label for="nombre">nombre</label>
                             <input type="text" name="" id="nombre" placeholder="nombre">
@@ -18,7 +60,7 @@
                         </div>
                         <div class="container-input">
                         <label for="textarea">dejanos tu mensaje acá</label>
-                        <textarea name="" id="" cols="20" rows="10" placeholder="Dejanos tu mensaje en este recuadro"></textarea>
+                        <textarea name="" id="message" cols="20" rows="10" placeholder="Dejanos tu mensaje en este recuadro"></textarea>
                         </div>
                         <div class="container-input-submit">
                         <input class="submit" type="submit" value="Enviar" >
