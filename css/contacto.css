@@ -61,3 +61,15 @@ textarea {
 .cotacto-localizacion{
   width: 100%;
 }
+
+@media (max-width: 425px){
+  .formulario {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .informacion {
+    width: 100%;
+
+  }
+}
