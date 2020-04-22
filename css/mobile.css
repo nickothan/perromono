@@ -62,10 +62,6 @@
 
   /* Open */
 
-  .menu.open {
-    display: block;
-  }
-
   .toggle.open > div:hover > div {
     background-color: #333;
   }
