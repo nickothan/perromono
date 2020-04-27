@@ -91,6 +91,7 @@
     background-color: #f3f3f3;
     margin: 0;
     padding: 50px;
+    z-index: 9;
   }
 
   .menu-open {
