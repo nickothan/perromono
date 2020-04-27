@@ -45,7 +45,7 @@ nav a {
 }
 
 nav a:hover{
-  box-shadow: 4px 2px 6px yellow;
+  box-shadow: 4px 2px 6px rgba(255, 255, 0, 0.068);
 }
 
 nav a:last-child {
@@ -90,6 +90,95 @@ footer li {
 
 /* Footer  */
 
+.terminos{
+  display: none;
+}
+.social{
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  position: fixed;
+  left: 0;
+  top: 200px;
+  z-index: 2000;
+}
+.social a{
+  color: white;
+  background-color: lime;
+  padding: 10px 15px;
+  text-decoration: none;
+  font-size: 40px;
+}
+
+.redes-social{
+  margin: 20px;
+}
+.icon-facebook2{
+  margin: 0 10px;
+  color: white;
+  text-decoration: none;
+  font-size: 40px;
+  background: blue;
+}
+
+.icon-instagram{
+  color: white;
+  text-decoration: none;
+  font-size: 40px;
+  background: purple;
+}
+
+.inicio-slider{
+  /*display: flex;
+  align-items: center;
+  justify-content: center;*/
+  margin: 20px 0;
+  position: relative;
+  border-radius: 6px;
+  overflow: hidden;
+  width:100%;
+  max-height: 500px;
+}
+
+.item-slide img{
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.slide{
+  display: flex;
+  transform: translate3d(0, 0, 0);
+  animation-name: autoplay;
+  animation-duration: 4s;
+  animation-direction: alternate;
+  animation-fill-mode: forwards;
+  animation-iteration-count: infinite;
+}
+
+.item-slide{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+  flex-grow: 0;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+@keyframes autoplay{
+  33%{
+    transform: translate3d(calc(-100% * 0), 0, 0);
+  }
+  66%{
+    transform: translate3d(calc(-100% * 1), 0, 0);
+  }
+  100%{
+    transform: translate3d(calc(-100% * 2), 0, 0);
+  }
+}
+
 @media screen and (max-width:840px){
   
   main {
@@ -117,6 +206,9 @@ footer li {
   
   nav a {
     margin-right: 5px;
+  }
+  .social{
+    
   }
 }
 @media screen and (max-width:740px){
@@ -150,5 +242,11 @@ footer li {
     width: 150px;
     padding: 20px;
     margin-left: 15px;
+  }
+  .social{
+    top: 120px;
+  }
+  .social a{
+    font-size: 25px;
   }
 }

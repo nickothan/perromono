@@ -1,7 +1,16 @@
 <div class="incio">
-        <div class="inicio-video">
-            <!-- <video src="imagenes/videos/Perro mono.mp4"></video> -->
-            <div class="inicio-video-prueba"></div>
+        <div class="inicio-slider">
+            <div class="slide">
+                <div class="item-slide">
+                    <img src="imagenes/img2.jpg" alt="">
+                </div>
+                <div class="item-slide">
+                    <img src="imagenes/img3.jpg" alt="">
+                </div>
+                <div class="item-slide">
+                    <img src="imagenes/img4.jpg" alt="">
+                </div>
+            </div>
         </div>
 
         <div class="inicio-comidas">

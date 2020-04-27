@@ -8,6 +8,7 @@
 <body>
 
     <?php include "vistas/global/header.html"; ?>
+    <?php include "vistas/global/social.html"; ?>
 
     <main>
     
