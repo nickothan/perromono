@@ -102,7 +102,7 @@ footer li {
   position: fixed;
   left: 0;
   top: 200px;
-  z-index: 2000;
+  z-index: 2;
 }
 .social a{
   color: white;
